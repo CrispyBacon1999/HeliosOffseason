@@ -48,10 +48,10 @@ public final class Constants {
         public static final int PIGEON_ID = 13;
         public static final double WHEELBASE_METERS = 0.749;
         public static final double TRACKWIDTH_METERS = 0.749;
-        public static final SwerveConstants FRONT_LEFT = new SwerveConstants(1, 2, 9, 188.7);
-        public static final SwerveConstants FRONT_RIGHT = new SwerveConstants(3, 4, 10, 340.83);
-        public static final SwerveConstants BACK_LEFT = new SwerveConstants(5, 6, 11, 270);
-        public static final SwerveConstants BACK_RIGHT = new SwerveConstants(7, 8, 12, 225);
+        public static final SwerveConstants FRONT_LEFT = new SwerveConstants(1, 2, 9, 189.31171875);
+        public static final SwerveConstants FRONT_RIGHT = new SwerveConstants(3, 4, 10, 343.473046875);
+        public static final SwerveConstants BACK_LEFT = new SwerveConstants(5, 6, 11, 88.93828125-180);
+        public static final SwerveConstants BACK_RIGHT = new SwerveConstants(7, 8, 12, 45.084375-180);
     }
 
     public static final class Magazine {
